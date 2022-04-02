@@ -3,7 +3,7 @@
 ### Contact
 
 tamm3@uw.edu  
-[michaelztam.com](michaelztam.com)
+[michaelztam.com](https://michaelztam.com)
 
 ## Summary
 
