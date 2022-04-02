@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dist/output.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="flex justify-between p-4 sticky top-0 bg-gray-200 z-10">
+      <h1 class="text-lg md:2xl ml-24">AFakeStore</h1>
+      <div class="flex gap-4 justify-self-end">
+        <p>Shop Categories</p>
+        <p>Explore</p>
+        <p>My Account</p>
+        <input placeholder="Search" class="text-center rounded-lg" />
+      </div>
+    </div>
+
+    <div class="text-center bg-gray-300 p-7 mb-28">
+      <h1 class="text-5xl mb-4">Featured Item</h1>
+      <p class="font-light text-lg mt-1 mb-2">Chips and Salsa</p>
+      <div class="flex justify-center align-middle hover:cursor-pointer mb-2">
+        <div
+          class="rounded-lg bg-gray-400 p-3 hover:underline hover:bg-gray-500 hover:text-white"
+        >
+          <span> Learn More </span>
+        </div>
+      </div>
+      <div class="flex justify-center align-middle pb-14 pt-14">
+        <img
+          src="https://images.unsplash.com/photo-1648437595584-62d15da353b7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1668&q=80"
+          class="rounded-xl max-w-lg"
+        />
+      </div>
+    </div>
+
+    <div class="mt-8 px-48 mb-24">
+      <h1 class="font-semibold text-3xl mb-2">Categories</h1>
+      <div class="flex justify-center align-middle space-x-4">
+        <div
+          class="rounded-lg bg-gradient-to-b from-gray-300 to-gray-500 w-64 h-auto text-center p-2 mb-4 hover:cursor-pointer transition hover:translate-y-2 duration-300"
+        >
+          <img
+            src="https://images.unsplash.com/photo-1593435221502-c5d7bfc26cab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80"
+            class="mb-4 rounded-lg"
+          />
+          <h2 class="text-white font-semibold text-xl">New Arrivals</h2>
+        </div>
+
+        <div
+          class="rounded-lg bg-gradient-to-b from-gray-300 to-gray-500 w-64 text-center p-2 mb-4 transition hover:cursor-pointer hover:translate-y-2 duration-300"
+        >
+          <img
+            src="https://images.unsplash.com/photo-1593435221502-c5d7bfc26cab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80"
+            class="mb-4 rounded-lg"
+          />
+          <h2 class="text-white font-semibold text-xl">Arts and Crafts</h2>
+        </div>
+
+        <div
+          class="rounded-lg bg-gradient-to-b from-gray-300 to-gray-500 w-64 text-center p-2 mb-4 transition hover:cursor-pointer hover:translate-y-2 duration-300"
+        >
+          <img
+            src="https://images.unsplash.com/photo-1593435221502-c5d7bfc26cab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80"
+            class="mb-4 rounded-lg"
+          />
+          <h2 class="text-white font-semibold text-xl">Top Sellers</h2>
+        </div>
+
+        <div
+          class="rounded-lg bg-gradient-to-b from-gray-300 to-gray-500 w-64 text-center p-2 mb-4 transition hover:cursor-pointer hover:translate-y-2 duration-300"
+        >
+          <img
+            src="https://images.unsplash.com/photo-1593435221502-c5d7bfc26cab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80"
+            class="mb-4 rounded-lg"
+          />
+          <h2 class="text-white font-semibold text-xl">On Sale</h2>
+        </div>
+
+        <div
+          class="rounded-lg bg-gradient-to-b from-gray-300 to-gray-500 w-64 text-center p-2 mb-4 transition hover:cursor-pointer hover:translate-y-2 duration-300"
+        >
+          <img
+            src="https://images.unsplash.com/photo-1593435221502-c5d7bfc26cab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80"
+            class="mb-4 rounded-lg"
+          />
+          <h2 class="text-white font-semibold text-xl">Most Wished</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg text-center pt-24 pb-24 mx-48 mb-24 rounded-xl">
+      <h1 class="font-bold text-4xl">Food For Thought</h1>
+      <p>Stock up on snacks for those hungry moments.</p>
+      <button
+        class="rounded-lg bg-gray-400 py-4 px-8 mt-4 hover:bg-gray-500 hover:text-white"
+      >
+        Shop Now
+      </button>
+    </div>
+
+    <div class="bg-gray-800 px-16 py-16 text-white">
+      <div class="grid grid-cols-3 gap-4">
+        <div class="space-y-8">
+          <h1 class="font-semibold text-lg">A Fake Store</h1>
+          <p class="font-light">&copy;2022 A Fake Company</p>
+          <p class="font-light">Anywhere City, USA</p>
+          <p class="font-light">MCMXCVIII</p>
+        </div>
+        <div class="space-y-8">
+          <h2 class="text-lg font-semibold">About Us</h2>
+          <p class="font-light">Who We Are</p>
+          <p class="font-light">Leadership</p>
+          <p class="font-light">Press</p>
+          <p class="font-light">Careers</p>
+        </div>
+        <div class="space-y-8">
+          <h2 class="text-lg font-semibold">Connect</h2>
+          <p class="font-light">Contact Us</p>
+          <p class="font-light">Phone</p>
+          <p class="font-light">Email</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
